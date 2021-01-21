@@ -2,10 +2,29 @@
 % Please edit documentation in R/f_test.R
 \name{myFun}
 \alias{myFun}
-\title{The first test function}
+\title{Run a simple linear model y on x}
 \usage{
-myFun(x, y)
+myFun(x, y, ...)
+}
+\arguments{
+\item{x}{a numeric vector treated as the predictor in the linear model}
+
+\item{y}{a numeric vector treated as the outcome in the linear model}
+
+\item{...}{currently disregarded}
+}
+\value{
+the fit object from the lm function
 }
 \description{
-The first test function
+The function takes x and y, binds them into data frame, fits a linear model and returns the fit object.
+}
+\details{
+More details here.
+}
+\examples{
+x <- 1:10
+y <- 4 + .5*x + rnorm(10, 0, 1)
+myFun(x, y)
+
 }
