@@ -1,6 +1,6 @@
 #' Run a simple linear model y on x
 #'
-#' The function takes x and y, binds them into data frame, fits a linear model and returns the fit object.
+#' The function takes x and y, binds them into data frame, fits a linear model and returns the fit object. It uses internally the function \code{\link{lm}}
 #'
 #' More details here.
 #'
@@ -9,6 +9,8 @@
 #' @param ... currently disregarded
 #'
 #' @return the fit object from the lm function
+#'
+#' @seealso \code{\link{lm}}
 #'
 #' @examples
 #' x <- 1:10

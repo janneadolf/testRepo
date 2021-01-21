@@ -17,7 +17,7 @@ myFun(x, y, ...)
 the fit object from the lm function
 }
 \description{
-The function takes x and y, binds them into data frame, fits a linear model and returns the fit object.
+The function takes x and y, binds them into data frame, fits a linear model and returns the fit object. It uses internally the function \code{\link{lm}}
 }
 \details{
 More details here.
@@ -27,4 +27,7 @@ x <- 1:10
 y <- 4 + .5*x + rnorm(10, 0, 1)
 myFun(x, y)
 
+}
+\seealso{
+\code{\link{lm}}
 }
