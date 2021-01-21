@@ -7,6 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "janne.adolf@kuleuven.be") 
 Description: This is a tryout package for the workshop on Rpackages with github by joris meys.
+Imports: stats
 License: use_gpl3_license()
 Encoding: UTF-8
 LazyData: true

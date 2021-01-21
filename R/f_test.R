@@ -1,5 +1,6 @@
 #' The first test function
 #'
+#' @importFrom stats lm
 #' @export
 myFun <- function(x,y){
   tmp <- data.frame(x,y)
